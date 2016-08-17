@@ -56,17 +56,11 @@
 
     return jiugongge;
 }
-- (instancetype)initWithFrame:(CGRect)frame {
-    if (self == [super initWithFrame:frame]) {
-        
-    }
-    return self;
-}
+
 
 - (void)layoutSubviews {
     [super layoutSubviews];
 
-    
     /// 按钮之间的(横向)距离
     CGFloat marginX = self.buttonMarginX;
     
