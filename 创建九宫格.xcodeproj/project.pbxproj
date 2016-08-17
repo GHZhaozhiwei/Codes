@@ -13,6 +13,8 @@
 		183FEEF91D6317BC00013437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183FEEF71D6317BC00013437 /* Main.storyboard */; };
 		183FEEFB1D6317BC00013437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183FEEFA1D6317BC00013437 /* Assets.xcassets */; };
 		183FEEFE1D6317BC00013437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183FEEFC1D6317BC00013437 /* LaunchScreen.storyboard */; };
+		183FEF071D63182700013437 /* GHJiuGongGeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183FEF061D63182700013437 /* GHJiuGongGeView.m */; };
+		18C1A4771D63DC1600159B52 /* app.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C1A4761D63DC1600159B52 /* app.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		183FEEFA1D6317BC00013437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		183FEEFD1D6317BC00013437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		183FEEFF1D6317BC00013437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183FEF051D63182700013437 /* GHJiuGongGeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHJiuGongGeView.h; sourceTree = "<group>"; };
+		183FEF061D63182700013437 /* GHJiuGongGeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHJiuGongGeView.m; sourceTree = "<group>"; };
+		18C1A4761D63DC1600159B52 /* app.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = app.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +67,12 @@
 				183FEEF21D6317BC00013437 /* AppDelegate.m */,
 				183FEEF41D6317BC00013437 /* ViewController.h */,
 				183FEEF51D6317BC00013437 /* ViewController.m */,
+				183FEF051D63182700013437 /* GHJiuGongGeView.h */,
+				183FEF061D63182700013437 /* GHJiuGongGeView.m */,
 				183FEEF71D6317BC00013437 /* Main.storyboard */,
 				183FEEFA1D6317BC00013437 /* Assets.xcassets */,
 				183FEEFC1D6317BC00013437 /* LaunchScreen.storyboard */,
+				18C1A4761D63DC1600159B52 /* app.plist */,
 				183FEEFF1D6317BC00013437 /* Info.plist */,
 				183FEEEE1D6317BC00013437 /* Supporting Files */,
 			);
@@ -136,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C1A4771D63DC1600159B52 /* app.plist in Resources */,
 				183FEEFE1D6317BC00013437 /* LaunchScreen.storyboard in Resources */,
 				183FEEFB1D6317BC00013437 /* Assets.xcassets in Resources */,
 				183FEEF91D6317BC00013437 /* Main.storyboard in Resources */,
@@ -150,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				183FEEF61D6317BC00013437 /* ViewController.m in Sources */,
+				183FEF071D63182700013437 /* GHJiuGongGeView.m in Sources */,
 				183FEEF31D6317BC00013437 /* AppDelegate.m in Sources */,
 				183FEEF01D6317BC00013437 /* main.m in Sources */,
 			);
@@ -298,6 +308,7 @@
 				183FEF041D6317BC00013437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
